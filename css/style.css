@@ -1,0 +1,22 @@
+body, html{
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.container {
+  background-color: white;
+}
+
+nav {
+
+  background-color: red;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
