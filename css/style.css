@@ -14,25 +14,37 @@ body, html{
 .nav-header {
   position: relative;
   height: 100vh;
+  border-bottom: 1px solid black;
 
 }
 
 nav {
-  background-color: red;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-items {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
 }
 
 .nav-items a{
   height: 2em;
-  margin: 1em 1em;
+  margin: .5em;
   text-decoration: none;
   color: black;
+}
+.nav-logo-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-btn:hover {
+  cursor: pointer;
 }
 
 .intro {
@@ -40,13 +52,17 @@ nav {
   text-align: center;
   background-position: center;
   width: 100%;
-
   position: absolute;
   top: 50%;
   margin-top: -50px;
 }
 
 section {
-  background-color: green;
+
   height: 50vh;
+}
+
+.nav-logo {
+  height: 100px;
+  width: 100px;
 }
