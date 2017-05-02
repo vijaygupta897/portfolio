@@ -14,13 +14,10 @@ body, html{
   position: relative;
   height: 100vh;
   background-image: url("../images/space-mountain-min.jpg");
-
   color: white;
-
-  background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto 100%;
+
 
 }
 
@@ -90,7 +87,7 @@ section {
   width: 100px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 770px) {
   nav {
     flex-direction: row;
     justify-content: space-between;
@@ -103,5 +100,12 @@ section {
     flex-direction: row;
     border-bottom: none;
     display: flex !important;
+  }
+
+  .nav-header {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
