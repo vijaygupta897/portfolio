@@ -17,6 +17,5 @@ $(document).on('click','.nav-btn',function(e){
 });
 
 $( document ).ready(function() {
-    console.log( "ready!" );
     console.log($("#navBtn"))
 });
