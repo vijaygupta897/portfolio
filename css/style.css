@@ -14,7 +14,7 @@ body, html{
   position: relative;
   height: 100vh;
   background-image: url("../images/space-mountain-min.jpg");
-  background-size: contain;
+
   color: white;
 
   background-attachment: fixed;
@@ -27,10 +27,7 @@ body, html{
 nav {
   display: flex;
   flex-direction: column;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+
 }
 
 .nav-items {
