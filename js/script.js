@@ -4,7 +4,7 @@ var hideShow = function(){
  //getting the next element
  $content = $(".nav-items")
   //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
- $content.slideToggle(300, function () {
+ $content.slideToggle(300,  function () {
       //execute this after slideToggle is done
       //change text of header based on visibility of content div
     $header.text(function () {
