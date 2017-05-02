@@ -1,7 +1,6 @@
 
-$(document).on('click','.nav-btn',function(e){
- //handler code here
- $header = $(this);
+var hideShow = function(){
+ $header = $(".nav-btn");
  //getting the next element
  $content = $(".nav-items")
   //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
@@ -14,7 +13,7 @@ $(document).on('click','.nav-btn',function(e){
     });
 });
 
-});
+}
 
 $( document ).ready(function() {
     console.log($("#navBtn"))
