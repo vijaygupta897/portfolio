@@ -28,14 +28,17 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: pink;
+
 }
 
 .nav-items a{
+  width: 90%;
   height: 2em;
   margin: .5em;
   text-decoration: none;
   color: black;
+  border-bottom: 1px solid black;
+  text-align: center;
 }
 .nav-logo-btn {
   display: flex;
