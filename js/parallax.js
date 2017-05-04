@@ -5,6 +5,18 @@ $(window).scroll(function(){
    $('.intro').css({
      'transform' : 'translate(0px, ' + wScroll/2 +'%)'
    });
+
+   $('.parallax1').css({
+     'transform' : 'translate(0px, ' + (wScroll-980)/2 +'%)'
+   });
+ } else {
+   $('.intro').css({
+     'transform' : 'translate(0px, 0%)'
+   });
+
+   $('.parallax1').css({
+     'transform' : 'translate(0px, 0%)'
+   });
  }
 
 });

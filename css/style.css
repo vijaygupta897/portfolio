@@ -19,8 +19,7 @@ body, html{
   background-position: center;
   background-repeat: repeat-x;
   background-size: auto 100%;
-
-
+  overflow: hidden;
 }
 
 nav {
@@ -33,7 +32,6 @@ nav {
   -ms-user-select: none;
   user-select: none;
   max-width: 1100px;
-
 }
 
 .nav-items {
@@ -41,9 +39,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   z-index: 3;
-
 }
 
 .nav-items a{
@@ -88,12 +84,12 @@ nav {
   width: 100%;
   position: absolute;
   top: 50%;
-  margin-top: -50px;
-}
+  margin-top: -1em;
 
-section {
-  height: 50vh;
 }
+ section {
+
+ }
 
 .nav-logo {
   height: 100px;
@@ -105,6 +101,53 @@ section {
   height: 50vh;
   background-color: black;
   color: white;
+  position: relative;
+  background-size: auto 100%;
+
+}
+
+.parallax-section p{
+  font-size: 3em;
+  text-align: center;
+  background-position: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -1em;
+  overflow: hidden;
+}
+
+#about {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about p{
+  max-width: 1100px;
+  text-align: left;
+}
+
+.main-container {
+  padding: 2em 0;
+  margin: 0 auto;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1100px;
+}
+
+.portfolio-item {
+  margin: 2em;
+}
+.portfolio-item img{
+  height: 17em;
+  width: 17em;
+}
+.portfolio-item {
+
 }
 
 @media screen and (min-width: 770px) {
