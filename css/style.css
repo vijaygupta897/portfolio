@@ -9,6 +9,7 @@ body, html{
 .container {
   background-color: white;
   justify-content: center;
+  z-index: 5;
 }
 
 .nav-header {
@@ -103,6 +104,7 @@ nav {
   color: white;
   position: relative;
   background-size: auto 100%;
+  overflow: hidden;
 
 }
 
@@ -114,7 +116,8 @@ nav {
   position: absolute;
   top: 50%;
   margin-top: -1em;
-  overflow: hidden;
+  z-index: 0;
+
 }
 
 #about {
@@ -126,7 +129,9 @@ nav {
 
 #about p{
   max-width: 1100px;
-  text-align: left;
+  text-align: justify;
+  margin: 2em;
+
 }
 
 .main-container {
@@ -141,13 +146,19 @@ nav {
 
 .portfolio-item {
   margin: 2em;
+
+  box-shadow: 0 0 10px #888888;
 }
 .portfolio-item img{
   height: 17em;
   width: 17em;
 }
-.portfolio-item {
+.portfolio-item:hover{
 
+  box-shadow: 0 0 20px #888888;
+}
+.portfolio-title {
+  text-align: center;
 }
 
 @media screen and (min-width: 770px) {
