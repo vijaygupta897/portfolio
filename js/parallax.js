@@ -9,9 +9,13 @@ $(window).scroll(function(){
    });
 
    var parallax1 = (($(".parallax1").offset().top - wScroll) - (($( window ).height()/2 )- 45)) *-1
-
    $('.parallax1').css({
      'transform' : 'translate(0px, ' + parallax1/2 +'%)'
+   });
+
+   var parallax2 = (($(".parallax2").offset().top - wScroll) - (($( window ).height()/2 )- 45)) *-1
+   $('.parallax2').css({
+     'transform' : 'translate(0px, ' + parallax2/2 +'%)'
    });
  } else {
    $('.intro').css({
