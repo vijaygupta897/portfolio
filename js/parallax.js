@@ -18,10 +18,6 @@ $(window).scroll(function(){
      'transform' : 'translate(0px, ' + parallax2/2 +'%)'
    });
 
-   var parallax3 = (($(".parallax3").offset().top - wScroll) - (($( window ).height()/2 )- 45)) *-1
-   $('.parallax3').css({
-     'transform' : 'translate(0px, ' + parallax3/2 +'%)'
-   });
  } else {
    $('.intro').css({
      'transform' : 'translate(0px, 0%)'
@@ -34,9 +30,6 @@ $(window).scroll(function(){
      'transform' : 'translate(0px, 0%)'
    });
 
-   $('.parallax3').css({
-     'transform' : 'translate(0px, 0%)'
-   });
  }
 
 });

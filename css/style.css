@@ -144,6 +144,16 @@ nav {
   max-width: 1100px;
 }
 
+.main-container2 {
+  padding: 2em;
+  margin: 0 auto;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1100px;
+}
+
 .portfolio-item {
   margin: 1em;
   box-shadow: 2px 2px 4px #e6e6e6;
@@ -212,8 +222,48 @@ nav {
 }
 
 .portfolio-item:hover {
-
   box-shadow: 5px 5px 5px #fff0e6, -5px -5px 5px #fff0e6;
+}
+
+.experience-tile {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  background-color: white;
+  padding: .3em;
+  text-align: center;
+  margin: 1em 0;
+}
+
+
+.exp-title {
+  font-size: 2em;
+}
+.exp-description {
+  font-size: 1em;
+}
+
+.icon-container {
+  height: 290px;
+  width: 250px;
+  display: flex;
+  align-self: center;
+}
+.icon {
+  position: relative;
+  width:100%;
+  margin-bottom: 1em;
+}
+
+#experience {
+  width: 100%;
+  background-color: white;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 
