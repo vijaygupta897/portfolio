@@ -22,6 +22,11 @@ $(window).scroll(function(){
      });
   //}
 
+  var parallax3 = (($(".parallax3").offset().top - wScroll) - ((winHeight/2 )- 45)) *-1
+  $('.parallax3').css({
+    'transform' : 'translate(0px, ' + parallax3/3 +'%)'
+  });
+
  } else {
    $('.intro').css({
      'transform' : 'translate(0px, 0%)'
@@ -31,6 +36,9 @@ $(window).scroll(function(){
      'transform' : 'translate(0px, 0%)'
    });
    $('.parallax2').css({
+     'transform' : 'translate(0px, 0%)'
+   });
+   $('.parallax3').css({
      'transform' : 'translate(0px, 0%)'
    });
 
