@@ -1,5 +1,5 @@
 # Project
-[My personal portfolio!](cadekynaston.github.io/portfolio)
+[My personal portfolio!](https://cadekynaston.github.io/portfolio)
 
 
 ## About
