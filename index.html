@@ -13,12 +13,19 @@
     <script src="./js/script.js"></script>
   </head>
   <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#about">about</a>
+      <a href="#portfolio">portfolio</a>
+      <a href="#experience">experience</a>
+      <a href="#contact">contact</a>
+    </div>
     <div class="container">
       <div class="nav-header">
         <nav>
           <div class="nav-logo-btn">
             <img src="./images/logo-white.svg" alt="missing" class="nav-logo">
-            <div id="navBtn" class="nav-btn" onclick="hideShow()">menu</div>
+            <div id="navBtn" class="nav-btn" onclick="openNav()">menu</div>
           </div>
           <div class="nav-items" style="display:none">
             <a href="#about">about</a>
@@ -198,8 +205,29 @@
               </div>
             </div>
 
-          <div class="social-media"></div>
+
         </div>
+        <div class="container4">
+        <div class="footer-bottom">
+
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/cade-kynaston-003134ba
+" target="_blank">
+              <img src="./images/linkedin.svg" alt="">
+            </a>
+            <a href="https://github.com/cadekynaston" target="_blank">
+              <img src="./images/github.svg" alt="">
+            </a>
+            <a href="https://twitter.com/Cadekynaston" target="_blank">
+              <img src="./images/twitter.svg" alt="">
+            </a>
+            <a href="https://www.facebook.com/cade.kynaston" target="_blank">
+              <img src="./images/fb.svg" alt="">
+            </a>
+          </div>
+          <p>&copy; Cade Kynaston 2017</p>
+        </div>
+      </div>
       </footer>
     </div>
   </body>

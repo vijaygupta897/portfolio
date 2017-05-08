@@ -1,20 +1,15 @@
 
-var hideShow = function(){
- $header = $(".nav-btn");
- //getting the next element
- $content = $(".nav-items")
-  //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
- $content.slideToggle(300,  function () {
-      //execute this after slideToggle is done
-      //change text of header based on visibility of content div
-    $header.text(function () {
-        //change text based on condition
-        return $content.is(":visible") ? "hide" : "menu";
-    });
-});
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
 
 }
 
-$( document ).ready(function() {
-    console.log($("#navBtn"))
-});
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+
+}
+
+$('body').on('click','#mySidenav *', function() {
+  console.log('hi')
+})
