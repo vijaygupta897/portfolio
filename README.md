@@ -1,5 +1,5 @@
 # Project
-[My personal portfolio!](https://www.cadekynaston.com)
+[My personal portfolio!](cadekynaston.com)
 
 
 ## About
