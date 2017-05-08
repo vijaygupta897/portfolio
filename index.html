@@ -15,10 +15,10 @@
   <body>
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#about">about</a>
-      <a href="#portfolio">portfolio</a>
-      <a href="#experience">experience</a>
-      <a href="#contact">contact</a>
+      <a href="#about" onclick="closeNav()">about</a>
+      <a href="#portfolio" onclick="closeNav()">portfolio</a>
+      <a href="#experience" onclick="closeNav()">experience</a>
+      <a href="#contact" onclick="closeNav()">contact</a>
     </div>
     <div class="container">
       <div class="nav-header">
@@ -44,8 +44,8 @@
         <p class="parallax1">PORTFOLIO</p>
       </div>
 
-      <section id="portfolio">
-        <div class="main-container">
+      <section>
+        <div class="main-container" id="portfolio">
 
           <div class="portfolio-item">
             <a href="https://cadekynaston.github.io/connect4" target="_blank">
@@ -182,12 +182,12 @@
         </div>
       </section>
       <div class="parallax-section">
-        <p class="parallax3">CONTACT</p>
+        <p id="contact" class="parallax3">CONTACT</p>
       </div>
       <footer>
         <div class="main-container3">
 
-            <div id="contact" class="container3">
+            <divclass="container3">
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d32169.3296244972!2d-111.94341106868399!3d41.17997174431719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1494179190232" width="500" height="420" frameborder="0" style="border:0" allowfullscreen></iframe>
               <div class="personal-info">
                 <div class="contact-info">
