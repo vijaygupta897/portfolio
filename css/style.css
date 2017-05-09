@@ -132,10 +132,14 @@ nav {
 }
 
 #about p{
-  max-width: 1100px;
+  max-width: 1000px;
   text-align: justify;
   margin: 2em;
+}
 
+#about a{
+  color: #ff9966;
+  text-decoration: none;
 }
 
 .main-container {
