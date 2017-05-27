@@ -62,7 +62,6 @@ nav {
 }
 
 .nav-btn {
-
   color: white;
   width: 3em;
   text-align: center;
@@ -91,10 +90,37 @@ nav {
   background-color: #F8F8F8;
  }
 
+ .nav-icons {
+   display: flex;
+
+    align-items: center;
+ }
+
 .nav-logo {
   height: 100px;
   width: 100px;
   margin-left: 1em;
+}
+
+.nav-social {
+  height: 26px;
+  margin-left: 3px;
+}
+
+.nav-icons:hover > a {
+  opacity: 0.5;
+}
+
+.nav-icons a:hover{
+  opacity: 1;
+}
+
+
+
+.nav-icons hr{
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 5px;
 }
 
 .parallax-section {
